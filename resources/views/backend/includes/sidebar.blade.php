@@ -66,6 +66,17 @@
 
                 <li class="nav-item">
                     <a class="nav-link {{
+                        active_class(Route::is('admin/clientmanagements'))
+                    }}" href="{{ route('admin.clientmanagements.index') }}">
+                    <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        @lang('menus.backend.sidebar.clientmanagements')
+                    </a>
+                </li>
+
+                <li class="divider"></li>
+
+                <li class="nav-item">
+                    <a class="nav-link {{
                         active_class(Route::is('admin/pages'))
                     }}" href="{{ route('admin.pages.index') }}">
                         <i class="nav-icon fas fa-file"></i>

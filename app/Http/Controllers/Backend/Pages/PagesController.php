@@ -49,6 +49,7 @@ class PagesController extends Controller
      */
     public function create(CreatePageRequest $request)
     {
+        //dd('hi');
         return new ViewResponse('backend.pages.create');
     }
 

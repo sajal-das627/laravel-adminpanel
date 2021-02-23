@@ -214,6 +214,36 @@ return [
                 ],
             ],
 
+
+            'clientmanagements' => [
+                'all' => 'All Client Managements',
+                'active' => 'Client Management List',
+                'create' => 'Create Client Management',
+                'deactivated' => 'Deactivated Client Management',
+                'deleted' => 'Deleted Client Management',
+                'edit' => 'Edit Client Management',
+                'management' => 'Client Management',
+
+                'table' => [
+                    'created' => 'Created',
+                    'id' => 'ID',
+                    'last_updated' => 'Last Updated',
+                    'first_name' => 'First Name',
+                    'last_name' => 'Last Name',
+                    'email' => 'Email',
+                    'password' => 'Password',
+                    'password_confirmation' => 'Password Confirmation',
+                    'role' => 'Role',
+                    'company_logo' => 'Company Logo',
+                    'company_licenseno' => 'Company License No',
+                    'about_us' => 'About Us',
+                    'status' => 'Status',
+                    'createdby' => 'Created By',
+                    'createdat' => 'Created At',
+                    'total' => 'pages total|pages total',
+                ],
+            ],
+
             'pages' => [
                 'all' => 'All Pages',
                 'active' => 'Page List',

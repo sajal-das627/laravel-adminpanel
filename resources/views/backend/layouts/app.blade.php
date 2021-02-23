@@ -29,6 +29,11 @@
             display: none !important;
         }
     </style>
+     <link href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+   
+    
 </head>
 
 {{--
@@ -105,6 +110,28 @@
     @stack('after-scripts')
 
     @yield('pagescript')
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+    <script>
+                        CKEDITOR.replace( 'editor' );
+                        $(document).ready(function() {
+                            $('.select2').select2({
+                            closeOnSelect: false
+                            });
+                            });
+                            
+                </script>
+
+                
+<script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#pages-table').DataTable();
+} );
+</script>
 </body>
 
 </html>

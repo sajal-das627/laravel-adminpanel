@@ -14,7 +14,7 @@ return [
 
     'backend' => [
         'access' => [
-            'title' => 'Access',
+            'title' => 'User Access',
 
             'roles' => [
                 'all' => 'All Roles',
@@ -45,6 +45,17 @@ return [
                 'main' => 'Permissions',
                 'view' => 'View Permission',
                 'management' => 'Permission Management',
+            ],
+
+            'clientmanagement' => [
+                'all' => 'All Clientmanagements',
+                'active' => 'Active Clientmanagements',
+                'create' => 'Create Clientmanagement',
+                'deactivated' => 'Deactivated Clientmanagements',
+                'deleted' => 'Deleted Clientmanagements',
+                'edit' => 'Edit Clientmanagement',
+                'main' => 'Clientmanagements',
+                'view' => 'View Clientmanagement',
             ],
 
             'pages' => [
@@ -126,6 +137,7 @@ return [
             'history' => 'History',
             'system' => 'System',
             'blogs' => 'Blog Management',
+            'clientmanagements' => 'Client Management',
             'pages' => 'Pages Management',
             'faqs' => 'Faq Management',
             'email-templates' => 'Email Templates',

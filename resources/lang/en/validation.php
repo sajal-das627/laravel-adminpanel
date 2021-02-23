@@ -186,6 +186,19 @@ return [
                     'language' => 'Language',
                 ],
 
+                'clientmanagements' => [
+                    'first_name' => 'First Name',
+                    'last_name' => 'Last Name',
+                    'email' => 'Email',
+                    'password' => 'Password',
+                    'password_confirmation' => 'Password Confirmation',
+                    'role' => 'Role',
+                    'company_logo' => 'Company Logo',
+                    'company_licenseno' => 'Company License No',
+                    'about_us' => 'About Us',
+                    'status' => 'Status',
+                ],
+
                 'pages' => [
                     'name' => 'Page Name',
                     'slug' => 'Page Slug',
